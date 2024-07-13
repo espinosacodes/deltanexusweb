@@ -26,13 +26,14 @@ const Hero = () => {
          dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className="flex justify-center">
-        <div className="max-w-[89vw]">
-          <h2>
-          📈 Empowering profitable traders to scale their strategies 📊 Your investments to the next level
+      <div className="flex justify-center relative my-0 z-10">
+        <div className="max-w-[89vw] md:max-2-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <h2 className="uppercase text-s text-center text-blue-100 max-w-80">
+          📈 Empowering profitable traders to scale their strategies 
           </h2>
-          //7:39:27 
-
+          <h2 className="uppercase text-s text-center text-blue-100 max-w-80">
+          📊 Your investments to the next level
+          </h2>
         </div>
         
       </div>
