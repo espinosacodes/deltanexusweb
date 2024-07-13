@@ -31,6 +31,7 @@ const Hero = () => {
           <h2>
           📈 Empowering profitable traders to scale their strategies 📊 Your investments to the next level
           </h2>
+          //7:39:27 
 
         </div>
         
