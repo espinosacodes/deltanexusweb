@@ -33,13 +33,19 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-0 z-10">
         <div className="max-w-[89vw] md:max-2-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase text-s text-center text-blue-100 max-w-80">
-            Empowering profitable traders to scale their strategies 📈
+          <h2 className="uppercase text-s text-center text-blue-100 max-w-90">
+          Your investments to the next level 
           </h2>
           <TextGenerateEffect
-            className=""
-            words="Your investments to the next level"
+            className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold"
+            words="Empowering profitable traders to scale their strategies 📈"
           />
+
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
+          Delta Nexus is an algorithmic trading agency dedicated to unlocking the full potential of your trading strategies.
+          </p>
+
+
         </div>
       </div>
     </div>
