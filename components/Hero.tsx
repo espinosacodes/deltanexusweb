@@ -1,3 +1,4 @@
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -44,6 +45,16 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
           Delta Nexus is an algorithmic trading agency dedicated to unlocking the full potential of your trading strategies.
           </p>
+
+          <a href="about">
+
+            <MagicButton 
+              title = "Learn More"
+              position="right"
+              
+            />
+
+          </a>
 
 
         </div>
