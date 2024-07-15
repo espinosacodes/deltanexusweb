@@ -6,8 +6,10 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
 
+
 import { BackgroundGradientAnimation } from "./GradientBg";
-import MagicButton from "./MagicButton";
+import animationData from "@/data/confetti.json";
+import MagicButton from "../MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -57,7 +59,7 @@ export const BentoGridItem = ({
   const defaultOptions = {
     loop: copied,
     autoplay: copied,
-    animationData: Animation,
+    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -134,7 +136,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {/*id === 2 && <GridGlobe />*/}
+          {id === 2}
 
           {/* Tech stack list div */}
           {id === 3 && (
@@ -180,7 +182,13 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              
+              <MagicButton
+                title={copied ? "Email is Copied!" : "Copy my email address"}
+                icon={<IoCopyOutline />}
+                position="left"
+                handleClick={handleCopy}
+                otherClasses="!bg-[#161A31]"
+              />
             </div>
           )}
         </div>
@@ -188,4 +196,3 @@ export const BentoGridItem = ({
     </div>
   );
 };
-
