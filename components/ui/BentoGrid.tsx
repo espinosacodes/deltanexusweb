@@ -51,8 +51,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["R", "Pinescript", "MQL4"];
+  const rightLists = ["Python", "MQL5", "IBKR API"];
 
   const [copied, setCopied] = useState(false);
 
@@ -66,7 +66,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "santiagoespinosagiraldo1@gmail.com"; 
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -81,9 +81,11 @@ export const BentoGridItem = ({
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
+        background: "rgb(19,29,41)",
         backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        "linear-gradient(90deg, rgba(19,29,41,0.8673844537815126) 0%, rgba(136,135,229,1) 100%)",
+
+
       }}
     >
       {/* add img divs */}
