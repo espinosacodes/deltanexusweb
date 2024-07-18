@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "We incorporate robust risk management tools to protect your capital from unexpected market fluctuations",
+    title: "We incorporate robust risk management tools to protect your capital from unexpected market fluctuations.",
     description: "Risk management",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -161,8 +161,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Algoritmic trading agency",
+    desc: "Empowering profitable traders to scale their strategies",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -172,6 +172,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    
   },
   {
     id: 2,
