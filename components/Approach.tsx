@@ -7,14 +7,14 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Our <span className="text-purple">plans</span>
+        Our <span className="text-purple">plans</span> to help you
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Algorithm trading automatization"
-          icon={<AceternityIcon order="Phase 1" />}
+          icon={<AceternityIcon order="Plan 1" />}
           des="We'll automate your actual trading strategie to map out your trading goals. We'll talk with you to get in touch
           with your trading strategy."
         >
@@ -26,7 +26,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Improve your trading strategies"
-          icon={<AceternityIcon order="Phase 2" />}
+          icon={<AceternityIcon order="Plan 2" />}
           des="We'll work with you to improve your trading strategies and make them more efficient. 
           We'll also give you some variations to make your trading strategies more profitable and suitable to you."
         >
@@ -38,7 +38,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Automate and improve your trading strategies"
-          icon={<AceternityIcon order="Phase 3" />}
+          icon={<AceternityIcon order="Plan 3" />}
           des="We'll work with you starting to better know your trading strategies improve it and automate them."
         >
           <CanvasRevealEffect

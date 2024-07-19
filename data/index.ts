@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Technologies we use",
+    title: "Technologies we use:",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -77,6 +77,8 @@ export const testimonials = [
       "I was initially skeptical about the potential of automated trading. But after partnering with Delta Nexus, I've been pleasantly surprised. Their platform has helped me identify patterns I would have never noticed manually. While I haven't seen consistent profits yet, the insights I've gained are invaluable and I'm optimistic about future results.",
     name: "Alex Johnson",
     title: "The Skeptic Turned Believer",
+    profile: "/profile.svg",
+
   },
   {
     quote:
@@ -99,8 +101,8 @@ export const testimonials = [
   {
     quote:
       "While I haven't seen the same level of success as some of my peers, my experience with Delta Nexus has been positive. Their customer support is exceptional, and they've helped me understand the platform's capabilities better. I believe with continued optimization, I can achieve my trading goals.",
-    name: "Isaac Lee",
-    title: "Industiral engineer ",
+    name: "Isaac ",
+    title: "Bussiness administrator",
   },
 ];
 
