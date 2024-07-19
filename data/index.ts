@@ -1,6 +1,11 @@
+import { profile } from "console";
+import { publicDecrypt } from "crypto";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Goals", link: "#goals" },
+  {name: "Plans", link: "#plans"},
   { name: "Contact", link: "#contact" },
 ];
 
@@ -77,7 +82,8 @@ export const testimonials = [
       "I was initially skeptical about the potential of automated trading. But after partnering with Delta Nexus, I've been pleasantly surprised. Their platform has helped me identify patterns I would have never noticed manually. While I haven't seen consistent profits yet, the insights I've gained are invaluable and I'm optimistic about future results.",
     name: "Alex Johnson",
     title: "The Skeptic Turned Believer",
-    profile: "/profile.svg",
+    profile: "",
+   
 
   },
   {
@@ -85,24 +91,30 @@ export const testimonials = [
       "As a relatively new trader, I was overwhelmed by the market's complexity. Delta Nexus' automated trading tools have been a game-changer. Their research reports and platform have empowered me to make informed decisions. I've experienced consistent profitability and am excited to see where this journey takes me.",
     name: "Riley Thompson",
     title: "Novice trader",
+    profile: "",
+    
   },
   {
     quote:
       "I've been trading for years and have faced my fair share of ups and downs. Delta Nexus helped me analyze my past trades and identify recurring patterns. While I haven't reached my desired profit levels yet, the platform has equipped me with the tools to refine my strategy and improve my overall performance.",
     name: "Maria Hernandez",
     title: "Swing Trader Seeking Consistency",
+    profile: "",
+   
   },
   {
     quote:
       "Delta Nexus has been instrumental in scaling my trading operations. Their automated execution has significantly increased my trade speed and accuracy. The platform's advanced analytics have allowed me to optimize my strategy and generate substantial profits. I'm truly impressed with the results.",
     name: "Juan Pablo",
     title: "Day Trader",
+    profile: "/juanprofile.png",
   },
   {
     quote:
       "While I haven't seen the same level of success as some of my peers, my experience with Delta Nexus has been positive. Their customer support is exceptional, and they've helped me understand the platform's capabilities better. I believe with continued optimization, I can achieve my trading goals.",
     name: "Isaac ",
     title: "Bussiness administrator",
+    profile: "",
   },
 ];
 
