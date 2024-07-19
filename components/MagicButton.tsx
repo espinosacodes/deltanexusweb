@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  *  UI: border magic from tailwind css btns
  *  Link: https://ui.aceternity.com/components/tailwindcss-buttons
@@ -30,7 +28,11 @@ const MagicButton = ({
 
       <span
         className={`relative inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg
-             bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`}
+             px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`}
+        style={{
+          background: "rgb(19,29,41)",
+          backgroundColor: "linear-gradient(90deg, rgba(19,29,41,0.8673844537815126) 0%, rgba(136,135,229,1) 100%)"
+        }}
       >
         {position === "left" && icon}
         {title}

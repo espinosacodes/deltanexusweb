@@ -74,112 +74,60 @@ export const gridItems = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I was initially skeptical about the potential of automated trading. But after partnering with Delta Nexus, I've been pleasantly surprised. Their platform has helped me identify patterns I would have never noticed manually. While I haven't seen consistent profits yet, the insights I've gained are invaluable and I'm optimistic about future results.",
+    name: "Alex Johnson",
+    title: "The Skeptic Turned Believer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a relatively new trader, I was overwhelmed by the market's complexity. Delta Nexus' automated trading tools have been a game-changer. Their research reports and platform have empowered me to make informed decisions. I've experienced consistent profitability and am excited to see where this journey takes me.",
+    name: "Riley Thompson",
+    title: "Novice trader",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've been trading for years and have faced my fair share of ups and downs. Delta Nexus helped me analyze my past trades and identify recurring patterns. While I haven't reached my desired profit levels yet, the platform has equipped me with the tools to refine my strategy and improve my overall performance.",
+    name: "Maria Hernandez",
+    title: "Swing Trader Seeking Consistency",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Delta Nexus has been instrumental in scaling my trading operations. Their automated execution has significantly increased my trade speed and accuracy. The platform's advanced analytics have allowed me to optimize my strategy and generate substantial profits. I'm truly impressed with the results.",
+    name: "Juan Pablo",
+    title: "Day Trader",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "While I haven't seen the same level of success as some of my peers, my experience with Delta Nexus has been positive. Their customer support is exceptional, and they've helped me understand the platform's capabilities better. I believe with continued optimization, I can achieve my trading goals.",
+    name: "Isaac Lee",
+    title: "Industiral engineer ",
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Mision",
+    desc: "To empower traders to unlock the full potential of their trading strategies. We achieve this by fusing human expertise with cutting-edge technology.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Vision",
+    desc: "To become the definitive bridge between knowledge and execution in the world of algorithmic trading. We aspire to be the leading platform that provides in-depth research about ours traders stratregies to guide them to the better ones and automates execution for a superior trading experience",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Algoritmic trading agency",
-    desc: "Empowering profitable traders to scale their strategies",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  
 ];
 
 export const socialMedia = [
+
   {
     id: 1,
-    img: "/git.svg",
-    
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/company/deltanexus",
   },
 ];
