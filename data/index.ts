@@ -107,7 +107,7 @@ export const testimonials = [
       "Delta Nexus has been instrumental in scaling my trading operations. Their automated execution has significantly increased my trade speed and accuracy. The platform's advanced analytics have allowed me to optimize my strategy and generate substantial profits. I'm truly impressed with the results.",
     name: "Juan Pablo",
     title: "Day Trader",
-    profile: "/juanprofile.png",
+    profile: "",
   },
   {
     quote:
