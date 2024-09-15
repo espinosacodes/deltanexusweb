@@ -1,5 +1,8 @@
-## url
-https://deltanexus.netlify.app/
+## https://deltanexus.netlify.app/
+
+
+
+![image](https://github.com/user-attachments/assets/d428e7f3-6a50-41f6-9596-1ee02d1bbac4)
 
 
 remember to install:
